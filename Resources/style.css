@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css?family=Exo');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Exo', sans-serif;
+  background-color: #f2d8b7;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
+header {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 2px solid black;
+}
+
+.logodesktop {
+  display: flex;
+}
+
+.Colmar {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-right: 6px;
+}
+
+.Academy {
+  text-transform: uppercase;
+}
+
+#desktopnav {
+  display: block;
+}
+
+#desktopnav a {
+margin-left: 16px;
+padding: 16px;
+}
+
+#mobilenav {
+  display: none;
+}
+
+#banner1 {
+background-color: #f2d8b7;
+padding: 32px;
+display: flex;
+}
+
+#banner h1 {
+  font-family: 'Exo', sans-serif;
+  font-size: 2rem;
+  line-height: 1.8rem;
+}
+
+#banner1 h2 {
+  font-size: 1rem;
+  margin: 32px 0 24px 0;
+}
+
+button {
+  background-color: black;
+  border: 0;
+  font-family: 'Exo', sans-serif;
+  font-size: 1.5rem;
+  padding: 8px 0;
+  border: 2px solid black;
+  color: #f2d8b7;
+}
+
+button:hover {
+  background-color: black;
+}
+
+.bannerimage {
+  width: 60%;
+  height: auto;
+}
+
+.studentbanner {
+  width: 100%;
+  height: auto;
+}
+
+.bannercaption {
+  display: flex;
+  margin-left: 40px;
+  justify-content: center;
+  flex-flow: wrap column;
+}
+
+#banner2 {
+  display: flex;
+}
+
+#banner2 h1 {
+  margin: 32px 0 24px 0;
+  font-size: 2rem;
+  line-height: 1.8rem;
+  font-family: 'Exo', sans-serif;
+}
+
+#banner2 h3 {
+  font-family: 'Exo', sans-serif;
+  font-size: 1.5rem;
+}
+
+#banner2 h4 {
+  font-size: 0.8rem;
+  margin: 8px 0;
+  font-family: 'Exo', sans-serif;
+}
+
+#banner2 a {
+  text-decoration: underline;
+}
+
+#banner2 a:hover {
+  text-decoration: none;
+}
+
+.bannerpractice2 {
+  padding: 32px 24px;
+  border-right: 1px solid black;
+}
+
+.bannerimage2 {
+  width: 100%
+  height: auto;
+}
+
+.studentpracticing {
+  width: 100%;
+  height: auto;
+}
+
+.banner2caption {
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.sidenavigation {
+  min-width: 423px;
+}
+
+.orientation {
+  display: flex;
+  min-height: 168px;
+  border-bottom: 1px solid black;
+}
+
+.orientationimages {
+  margin: 16px;
+  height: auto;
+  max-width: 33%;
+}
+
+.informationdesktop {
+  height: auto;
+  width: 100%;
+}
+
+.informationmobile {
+  display: none;
+}
+
+.contenttext {
+  justify-content: center;
+  display: flex;
+  flex-flow: wrap column;
+  margin-right: 8px;
+}
+
+#learning {
+  padding-bottom: 16px;
+  background-color: #f2d8b7;
+}
+
+#learning h1 {
+  font-family: 'Exo', sans-serif;
+  font-size: 2rem;
+  padding: 32px 0 16px 0;
+  text-align: center;
+}
+
+#learning h2 {
+  font-size: 1.5rem;
+  margin: 16px;
+  font-family: 'Exo', sans-serif;
+}
+
+#learning h3 {
+  font-family: 'Exo', sans-serif;
+  font-size: 1rem;
+  margin: 8px 0;
+}
+
+.startlearningcourses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: auto;
+}
+
+.startlearningcourse {
+  width: 30%;
+  margin: 16px;
+  background-color: #f2d8b7;
+  padding-bottom: 24px;
+}
+
+.learningtext {
+  padding: 16px 16px;
+}
+
+.startlearningimage {
+  height: auto;
+  width: 100%;
+}
+
+.learningimage {
+  width: 100%
+  height: auto;
+}
+
+#thesis h1 {
+  font-size: 2rem;
+  padding: 32px 0;
+  font-family: 'Exo', sans-serif;
+  text-align: center;
+}
+
+#thesis h2 {
+  font-size: 1.5rem;
+  font-family: 'Exo', sans-serif;
+}
+
+#thesis p {
+  margin: 8px 0;
+  font-size: 0.8rem;
+  font-family: 'Exo', sans-serif;
+}
+
+.thesisexhibit {
+  display: flex;
+  width: 100%;
+}
+
+.thesisvid {
+  height: auto;
+  width: 100%;
+  padding-left: 24px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.thesistext {
+  margin: 24px 0 32px 24px;
+}
+
+.thesistext p {
+  margin-top: 16px;
+}
+
+.thesismain {
+  min-width: 423px;
+  margin-left: 16px;
+}
+
+.thesiscontainer {
+  display: flex;
+  min-height: 168px;
+  align-items: center;
+}
+
+.thesisimage {
+  margin: 16px;
+  height: auto;
+  max-width: 35%;
+}
+
+.imagethesis {
+  height: auto;
+  width: 100%;
+}
+
+.thesistext {
+  margin-right: 8px;
+  justify-content: center;
+  flex-flow: wrap column;
+  display: flex;
+}
+
+footer {
+  padding: 0 24px;
+  border-top: 2px solid black;
+  display: flex;
+  background-color: #f2d8b7;
+  color: black;
+  justify-content: space-between;
+  display: flex;
+}
+
+.copyright {
+  display: block;
+  padding: 16px 0;
+}
+
+.footer a {
+  display: inline-block;
+  margin: 16px 0 0 16px;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
