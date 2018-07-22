@@ -1,355 +1,144 @@
-@import url('https://fonts.googleapis.com/css?family=Exo');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html {
-  font-size: 18px;
-}
-
-body {
-  font-family: 'Exo', sans-serif;
-  background-color: #FBEEC1;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-}
-
-
-header {
-  width: 100%;
-  height: 64px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px;
-  border-bottom: 2px solid black;
-}
-
-.logodesktop {
-  display: flex;
-}
-
-.Colmar {
-  font-weight: bold;
-  text-transform: uppercase;
-  padding-right: 6px;
-}
-
-.Academy {
-  text-transform: uppercase;
-}
+@media only screen and (max-width: 710px) {
 
 #desktopnav {
-  display: block;
-}
-
-#desktopnav a {
-margin-left: 16px;
-padding: 16px;
-}
-
-#mobilenav {
   display: none;
 }
 
+#mobilenav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logodesktop {
+  display: none;
+}
+
+
+#banner2 {
+  padding-bottom: 16px;
+}
+
+.bannerpractice2 {
+  display: none;
+}
+
+.sidenavigation {
+  width: 100%;
+}
+
 #banner1 {
-background-color: #116466;
-padding: 32px;
-display: flex;
-}
-
-#banner1 h1 {
-  font-family: 'Exo', sans-serif;
-  font-size: 2rem;
-  line-height: 1.8rem;
-}
-
-#banner1 h2 {
-  font-size: 1rem;
-  margin: 32px 0 24px 0;
-}
-
-button {
-  background-color: black;
-  border: 0;
-  font-family: 'Exo', sans-serif;
-  font-size: 1.5rem;
-  padding: 8px 0;
-  border: 2px solid black;
-  color: #116466;
-}
-
-button:hover {
-  background-color: black;
+  padding: 0;
+  flex-wrap: wrap;
 }
 
 .bannerimage {
-  width: 60%;
-  height: auto;
-}
-
-.studentbanner {
   width: 100%;
-  height: auto;
+  height: 180px;
+  overflow: hidden;
 }
 
 .bannercaption {
   display: flex;
-  margin-left: 40px;
-  justify-content: center;
   flex-flow: wrap column;
+  justify-content: center;
+  margin: 32px 16px;
+  width: 100%;
 }
 
-#banner2 {
-  display: flex;
-  border-top: 2px solid black;
-}
-
-#banner2 h1 {
-  font-family: 'Exo', sans-serif;
-  font-size: 2rem;
-  line-height: 1.8rem;
-  margin: 32px 0 24px 0;
-}
-
-#banner2 h3 {
-  font-family: 'Exo', sans-serif;
-  font-size: 1.5rem;
-}
-
-#banner2 h4 {
-  font-family: 'Exo', sans-serif;
-  font-size: 0.8rem;
-  margin: 8px 0;
-}
-
-#banner2 a {
-  text-decoration: underline;
-}
-
-#banner2 a:hover {
-  text-decoration: underline;
-}
-
-
-.bannerpractice2 {
-  padding: 32px 24px;
-}
-
-.bannerimage2 {
-  width: 100%
+.orientation {
+  flex-flow: wrap column;
+  border: 0;
   height: auto;
 }
 
-.studentpracticing {
+.orientationimages {
+  min-width: 100%;
+  margin: 0;
+  padding: 16px;
+}
+
+.imagedesktop {
+  display: none;
+}
+
+.imagemobile {
+  display: inline-block;
   width: 100%;
   height: auto;
 }
 
-.banner2caption {
-  margin: 20px 0;
-  font-weight: bold;
-}
 
-.sidenavigation {
-  min-width: 423px;
-}
-
-.orientation {
-display: flex;
-min-height: 168px;
-border-bottom: 1px solid black;
-border-left: 1px solid black;
-}
-
-.orientationimages {
-max-width: 33%;
-height: auto;
-margin: 16px;
+.contenttext {
+  margin-left: 32px;
+  margin-bottom: 16px;
 }
 
 
-.imagedesktop {
-width: 100%;
-height: auto;
+.startlearningcourses {
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.imagemobile {
+.startlearningcourse {
+  width: 100%;
+  margin: 8px 16px;
+  padding: 0;
+}
+
+.learningtext h3, p {
   display: none;
 }
 
-.contenttext {
-display: flex;
-flex-flow: wrap column;
-justify-content: center;
-margin-right: 8px;
+.startlearningimage {
+  display: none;
+}
+
+.learningimage {
+  display: none;
 }
 
 #learning {
-  padding-bottom: 16px;
-  border-top: 2px solid black;
+  padding-bottom: 24px;
 }
 
 #learning h1 {
   font-family: 'Exo', sans-serif;
   font-size: 2rem;
-  padding: 32px 0 16px 0;
+  padding: 32px 0 8px 0;
   text-align: center;
 }
 
 #learning h2 {
-  font-size: 1.5rem;
-  margin: 16px;
-  font-family: 'Exo', sans-serif;
-  text-decoration: underline;
-}
-
-#learning h3 {
-  font-family: 'Exo', sans-serif;
-  font-size: 1rem;
-  margin: 8px 0;
-}
-
-.startlearningcourses {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: auto;
-  background-color: #116466;
-}
-
-.startlearningcourse {
-  width: 30%;
-  margin: 16px;
-  background-color: #FBEEC1;
-  padding-bottom: 24px;
-  border: 2px solid black;
-}
-
-.learningtext {
-  padding: 16px 16px;
-  text-align: center;
-}
-
-.startlearningimage {
-  height: auto;
-  width: 100%;
-}
-
-.learningimage {
-  width: 100%;
-  height: auto;
-}
-
-
-#thesis h1 {
-  font-size: 2rem;
-  padding: 32px 0;
-  font-family: 'Exo', sans-serif;
-  text-align: center;
-}
-
-#thesis h3 {
-  font-size: 1.5rem;
-  font-family: 'Exo', sans-serif;
-}
-
-#thesis h4 {
-  margin: 8px 0;
-  font-size: 0.8rem;
-  font-family: 'Exo', sans-serif;
-}
-
-.thesisexhibit {
-  display: flex;
-  width: 100%;
+  line-height: 0.5rem;
 }
 
 .thesisvid {
   height: auto;
   width: 100%;
-  padding-left: 24px;
+  padding: 0;
 }
 
+#thesis {
+  padding-bottom: 24px;
+}
 
 .thesistext {
-  margin: 24px 0 32px 24px;
-}
-
-.thesistext p {
-  margin-top: 16px;
+  display: none;
 }
 
 .thesismain {
-  min-width: 423px;
-  margin-left: 16px;
-  padding-bottom: 10px;
-}
-
-.thesiscontainer {
-  display: flex;
-  min-height: 168px;
-  align-items: center;
-  background-color: #116466;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
-  border-left: 1px solid black;
-}
-
-.thesisimage {
-  margin: 16px;
-  height: auto;
-  max-width: 35%;
-}
-
-.imagethesis {
-  height: auto;
-  width: 100%;
-}
-
-.thesistext {
-  margin-right: 8px;
-  justify-content: center;
-  flex-flow: wrap column;
-  display: flex;
-}
-
-video {
-  width: 100%;
-  height: auto;
-  border: 2px solid black;
+  display: none;
 }
 
 footer {
-  padding: 0 24px;
-  border-top: 2px solid black;
-  display: flex;
-  background-color: #116466;
-  color: black;
-  justify-content: space-between;
-  display: flex;
+  justify-content: flex-start;
 }
 
-footer a:hover {
-  text-decoration: none;
+.footerlinks {
+  display: none;
 }
 
-.copyright {
-  display: block;
-  padding: 16px 0;
-}
-
-.footer a {
-  display: inline-block;
-  margin: 16px 0 0 16px;
-  text-decoration: underline;
 }
