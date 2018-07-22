@@ -11,11 +11,11 @@ html {
 
 body {
   font-family: 'Exo', sans-serif;
-  background-color: #f2d8b7;
+  background-color: #FBEEC1;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a {
@@ -62,12 +62,12 @@ padding: 16px;
 }
 
 #banner1 {
-background-color: #f2d8b7;
+background-color: #116466;
 padding: 32px;
 display: flex;
 }
 
-#banner h1 {
+#banner1 h1 {
   font-family: 'Exo', sans-serif;
   font-size: 2rem;
   line-height: 1.8rem;
@@ -85,7 +85,7 @@ button {
   font-size: 1.5rem;
   padding: 8px 0;
   border: 2px solid black;
-  color: #f2d8b7;
+  color: #116466;
 }
 
 button:hover {
@@ -111,13 +111,14 @@ button:hover {
 
 #banner2 {
   display: flex;
+  border-top: 2px solid black;
 }
 
 #banner2 h1 {
-  margin: 32px 0 24px 0;
+  font-family: 'Exo', sans-serif;
   font-size: 2rem;
   line-height: 1.8rem;
-  font-family: 'Exo', sans-serif;
+  margin: 32px 0 24px 0;
 }
 
 #banner2 h3 {
@@ -126,9 +127,9 @@ button:hover {
 }
 
 #banner2 h4 {
+  font-family: 'Exo', sans-serif;
   font-size: 0.8rem;
   margin: 8px 0;
-  font-family: 'Exo', sans-serif;
 }
 
 #banner2 a {
@@ -136,12 +137,12 @@ button:hover {
 }
 
 #banner2 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
+
 
 .bannerpractice2 {
   padding: 32px 24px;
-  border-right: 1px solid black;
 }
 
 .bannerimage2 {
@@ -164,36 +165,38 @@ button:hover {
 }
 
 .orientation {
-  display: flex;
-  min-height: 168px;
-  border-bottom: 1px solid black;
+display: flex;
+min-height: 168px;
+border-bottom: 1px solid black;
+border-left: 1px solid black;
 }
 
 .orientationimages {
-  margin: 16px;
-  height: auto;
-  max-width: 33%;
+max-width: 33%;
+height: auto;
+margin: 16px;
 }
 
-.informationdesktop {
-  height: auto;
-  width: 100%;
+
+.imagedesktop {
+width: 100%;
+height: auto;
 }
 
-.informationmobile {
+.imagemobile {
   display: none;
 }
 
 .contenttext {
-  justify-content: center;
-  display: flex;
-  flex-flow: wrap column;
-  margin-right: 8px;
+display: flex;
+flex-flow: wrap column;
+justify-content: center;
+margin-right: 8px;
 }
 
 #learning {
   padding-bottom: 16px;
-  background-color: #f2d8b7;
+  border-top: 2px solid black;
 }
 
 #learning h1 {
@@ -207,6 +210,7 @@ button:hover {
   font-size: 1.5rem;
   margin: 16px;
   font-family: 'Exo', sans-serif;
+  text-decoration: underline;
 }
 
 #learning h3 {
@@ -220,17 +224,20 @@ button:hover {
   flex-wrap: wrap;
   justify-content: space-around;
   width: auto;
+  background-color: #116466;
 }
 
 .startlearningcourse {
   width: 30%;
   margin: 16px;
-  background-color: #f2d8b7;
+  background-color: #FBEEC1;
   padding-bottom: 24px;
+  border: 2px solid black;
 }
 
 .learningtext {
   padding: 16px 16px;
+  text-align: center;
 }
 
 .startlearningimage {
@@ -239,9 +246,10 @@ button:hover {
 }
 
 .learningimage {
-  width: 100%
+  width: 100%;
   height: auto;
 }
+
 
 #thesis h1 {
   font-size: 2rem;
@@ -250,12 +258,12 @@ button:hover {
   text-align: center;
 }
 
-#thesis h2 {
+#thesis h3 {
   font-size: 1.5rem;
   font-family: 'Exo', sans-serif;
 }
 
-#thesis p {
+#thesis h4 {
   margin: 8px 0;
   font-size: 0.8rem;
   font-family: 'Exo', sans-serif;
@@ -272,10 +280,6 @@ button:hover {
   padding-left: 24px;
 }
 
-video {
-  width: 100%;
-  height: auto;
-}
 
 .thesistext {
   margin: 24px 0 32px 24px;
@@ -288,12 +292,17 @@ video {
 .thesismain {
   min-width: 423px;
   margin-left: 16px;
+  padding-bottom: 10px;
 }
 
 .thesiscontainer {
   display: flex;
   min-height: 168px;
   align-items: center;
+  background-color: #116466;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
 }
 
 .thesisimage {
@@ -314,14 +323,24 @@ video {
   display: flex;
 }
 
+video {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+}
+
 footer {
   padding: 0 24px;
   border-top: 2px solid black;
   display: flex;
-  background-color: #f2d8b7;
+  background-color: #116466;
   color: black;
   justify-content: space-between;
   display: flex;
+}
+
+footer a:hover {
+  text-decoration: none;
 }
 
 .copyright {
@@ -333,8 +352,4 @@ footer {
   display: inline-block;
   margin: 16px 0 0 16px;
   text-decoration: underline;
-}
-
-footer a:hover {
-  text-decoration: none;
 }
